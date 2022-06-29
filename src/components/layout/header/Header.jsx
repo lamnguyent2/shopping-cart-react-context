@@ -81,7 +81,13 @@ export default function Header() {
                             </ul>
                         )}
                         </li> 
-                        <li className="dropdown user-basket"> <a href="/" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i className="icon-basket-loaded" /> </a>
+                        <li className="dropdown user-basket"> <a href="/" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i className="icon-basket-loaded" /> 
+                        {
+                            (Qty) > 0 ? (
+                                <div className="icon-real">{Qty}</div> 
+                            ) : ("")
+                        }
+                        </a>
                         <ul className="dropdown-menu">
                             <li>
                                 <h5 className="text-center">Tổng tiền: {total.toLocaleString("en-GB")} VND</h5>
