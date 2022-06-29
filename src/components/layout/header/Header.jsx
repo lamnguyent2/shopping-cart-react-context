@@ -51,8 +51,7 @@ export default function Header() {
                         <li className="dropdown"> <a href="/" className="dropdown-toggle" data-toggle="dropdown">Xem thêm</a>
                             <ul className="dropdown-menu">
                                 <li><a href="/contact">Liên hệ</a></li>
-                                <li><a href="/baocao">Báo cáo ASM</a></li>
-                                <li><a href="/hinh-anh-dep">Hình ảnh đẹp</a></li>
+                                <li><a href="/baocao">Báo cáo dự án</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -50,7 +50,7 @@ export default function BaocaoASM(props) {
                             </tr>
                             <tr>
                             <td height={43}>&nbsp;</td>
-                            <td style={{textAlign:"center"}}> <img src="images/chuky1.jpg" alt="" width={110} /> </td>
+                            <td style={{textAlign:"center"}}> <img src="images/chuky1.JPG" alt="" width={110} /> </td>
                             <td>&nbsp;</td>
                             </tr>
                         </tbody></table>
