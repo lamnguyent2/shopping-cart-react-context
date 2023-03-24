@@ -5,4 +5,5 @@
 2. YARN: yarn install --save
 3. BREW: brew install --save
 
-#Start project: npm start
+# Start project:
+npm start
